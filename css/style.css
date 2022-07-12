@@ -4397,6 +4397,12 @@ button.swiper-pagination-bullet {
   }
 }
 
+@media (max-width: 479px) {
+  .label-name {
+    top: 20px;
+  }
+}
+
 @media (max-width: 470px) {
   .plan__box {
     -webkit-box-pack: center;
