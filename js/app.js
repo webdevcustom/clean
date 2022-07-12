@@ -106,7 +106,7 @@ const swiper = new Swiper('.hero__swiper', {
 
 	// If we need pagination
 	pagination: {
-		el: ".swiper-pagination",
+		el: ".hero-pagination",
 		clickable: true,
 	},
 });
@@ -125,7 +125,7 @@ const startSwiper = new Swiper('.start__swiper', {
 
 	// If we need pagination
 	pagination: {
-		el: ".swiper-pagination",
+		el: ".start-pagination",
 		clickable: true,
 	},
 });
@@ -147,7 +147,7 @@ const feedbackSwiper = new Swiper('.feedback__swiper', {
 		},
 	},
 	pagination: {
-		el: ".swiper-pagination",
+		el: ".feedback-pagination",
 		clickable: true,
 	},
 	
