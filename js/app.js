@@ -132,7 +132,7 @@ const startSwiper = new Swiper('.start__swiper', {
 const feedbackSwiper = new Swiper('.feedback__swiper', {
 	// Optional parameters
 	
-	slidesPerView: 2,
+	slidesPerView: 1,
     spaceBetween: 60,
 	loop: true,
 	// autoplay: {
@@ -140,10 +140,17 @@ const feedbackSwiper = new Swiper('.feedback__swiper', {
 	// 	disableOnInteraction: false,
 	// },
 	// If we need pagination
+	breakpoints: {
+		1308: {
+			slidesPerView: 2,
+			spaceBetween: 60,
+		},
+	},
 	pagination: {
 		el: ".swiper-pagination",
 		clickable: true,
 	},
+	
 });
 
 //Curent year
